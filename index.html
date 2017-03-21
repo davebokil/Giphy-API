@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Giphy API</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<div class="container">
+    <!-- Jumbotron Headline -->
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="jumbotron" style="text-align: center;">
+                <h1>TV Show GIF Locater!</h1>
+            </div>
+        </div>
+    </div>
+    <!-- Add a show Form -->
+    <div class="row">
+        <div class="col-lg-4"></div>
+        <div class="col-lg-4">
+            <form>
+                <div class="form-group" id="tvshow-form">
+                    <label for="tvInput">Add a TV Show:</label>
+                    <input type="text" class="form-control" id="tvshowInput">
+                </div>
+                <button type="text" class="btn btn-default" id="addButton">Add!</button>
+            </form>
+        </div>
+    </div>
+    <br>
+    <!-- Show Buttons -->
+    <div class="row">
+            <div class="col-lg-12">
+            <div id="tvButtons">
+            </div>
+        </div>
+    </div>
+    <!-- Show Gifs -->
+    <div class="row">
+        <div class="col-lg-12">
+            <div id="gifs-appear-here">
+            </div>
+        </div>
+    </div>
+</div>
+
+<body>
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="assets/javascript/logic.js"></script>
+</body>
+
+</html>
