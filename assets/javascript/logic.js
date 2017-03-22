@@ -33,7 +33,7 @@
       console.log(tvShow)
 
       // Constructing a URL to search Giphy for the name of the person who said the quote
-      var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + tvShow + "&api_key=dc6zaTOxFJmzC&limit=10";
+      var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + tvShow + "&api_key=dc6zaTOxFJmzC&limit=10";
 
       // Performing AJAX GET request
       $.ajax({
